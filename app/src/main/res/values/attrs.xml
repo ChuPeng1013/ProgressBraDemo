@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressBarView">
+        <attr name="radius" format="dimension" /><!--半径-->
+        <attr name="strokeWidth" format="dimension"/><!--画笔宽度-->
+        <attr name="smallCircleColor" format="color"/><!--内圆颜色-->
+        <attr name="bigCircleColor" format="color"/><!--外圆颜色-->
+        <attr name="ringCircleColor" format="color"/><!--圆环颜色-->
+        <attr name="totalProgressBar" format="integer"/><!--总进度-->
+        <attr name="currentProgressBar" format="integer"/><!--当前进度-->
+        <attr name="textColor" format="color|reference"/><!--字体颜色-->
+
+    </declare-styleable>
+
+</resources>

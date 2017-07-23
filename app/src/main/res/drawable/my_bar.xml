@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--三个层的顺序即为显示时的叠加顺序-->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dp"/>
+            <solid android:color="#CCCCCC"/>
+        </shape>
+
+    </item>
+
+    <!--&lt;!&ndash;二级进度条的颜色
+    <item android:id="@android:id/secondaryProgress"
+        android:drawable="@android:drawable/">
+
+        <shape>
+            <corners android:radius="5dp"/>
+            <solid android:color="#88F56100"/>
+        </shape>&ndash;&gt;
+
+
+    </item>-->
+    <item android:id="@android:id/progress"
+        android:drawable="@android:drawable/bottom_bar"/>
+
+</layer-list>
